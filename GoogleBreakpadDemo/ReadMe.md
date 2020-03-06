@@ -112,6 +112,7 @@ Breakpad 由三部分组成：
 (2) 新建一个 android 工程
 
 (3) 新建一个 Module
+
 ![](./images/module.png)
 
 (4) 复制 breakpad 中 src 对于文件到项目中
@@ -120,7 +121,7 @@ Breakpad 由三部分组成：
 
 (5) 下载依赖文件
 
-代码中很多地方引用了#include "third_party/lss/linux_syscall_support.h"这个Linux调用库，但源码中并没有给出lss目录，所以我们需要自己翻墙去下载https://chromium.googlesource.com/linux-syscall-support/源码，并将lss目录拷贝到third_party下，否则编译不过。
+代码中很多地方引用了#include "third_party/lss/linux_syscall_support.h"这个Linux调用库，但源码中并没有给出lss目录，所以我们需要自己翻墙去下载  https://chromium.googlesource.com/linux-syscall-support/   源码，并将lss目录拷贝到third_party下，否则编译不过。
 
 ![](./images/lss.png)
 
@@ -150,8 +151,10 @@ public class BreakpadInit {
 
 
 (8) dump 文件解析
-解析需要工具，工具名称是 minidump_stackwalk。这个工具可以通过 Google Breakpad 源码自己编译。也可以在网上找其他人编译过的。 tools/mac 下的是 mac 平台上的工具。
+
+解析需要工具，工具名称是 minidump_stackwalk。这个工具可以通过 Google Breakpad 源码自己编译。也可以在网上找其他人编译过的。tools/mac 下的是 mac 平台上的工具。
 但是 AndroidStudio 应该是自带了这个工具，在 Android Studio的安装目录下bin\lldb\bin 下。
+
 通过如下命令进行解析，解析结果保存到 crash.txt 中
 
 ```
@@ -229,13 +232,19 @@ Thread 0 (crashed)
 
 这个工具在 Android Ndk 里面可以找到。
 
- 如果是arm-64位的so，解析是需要使用aarch64-linux-android-4.9下的工具链。
 
- 如果是arm-32位的so，解析是需要使用arm-linux-androideabi-4.9下的工具链。
+如果是arm-64位的so，解析是需要使用aarch64-linux-android-4.9下的工具链。
+
+
+如果是arm-32位的so，解析是需要使用arm-linux-androideabi-4.9下的工具链。
+
  
-  如果是x86-64位的so，解析是需要使用x86_64-4.9下的工具链。
+如果是x86-64位的so，解析是需要使用x86_64-4.9下的工具链。
+
  
-  如果是x86-32位的so，解析是需要使用x86-4.9下的工具链。
+如果是x86-32位的so，解析是需要使用x86-4.9下的工具链。
+
+
 
 首先需要得到崩溃的 so . 在 app\build\intermediates\transforms\mergeJniLibs\ 下。（我自己没有找到，直接用 debug.apk 包里拿到的这个，效果一样）
 
