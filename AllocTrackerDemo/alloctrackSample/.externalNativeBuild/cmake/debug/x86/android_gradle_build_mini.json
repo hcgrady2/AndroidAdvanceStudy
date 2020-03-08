@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\CMakeLists.txt",
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\CMakeLists.txt",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "fbjni-Debug-x86": {
+      "artifactName": "fbjni",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\debug\\x86 --target fbjni",
+      "abi": "x86",
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\debug\\x86\\fb\\libfbjni.a"
+    },
+    "substrate-Debug-x86": {
+      "artifactName": "substrate",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\debug\\x86 --target substrate",
+      "abi": "x86",
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\debug\\x86\\Substrate\\libsubstrate.a"
+    },
+    "alloc-lib-Debug-x86": {
+      "artifactName": "alloc-lib",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\debug\\x86 --target alloc-lib",
+      "abi": "x86",
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\build\\intermediates\\cmake\\debug\\obj\\x86\\liballoc-lib.so"
+    }
+  }
+}
