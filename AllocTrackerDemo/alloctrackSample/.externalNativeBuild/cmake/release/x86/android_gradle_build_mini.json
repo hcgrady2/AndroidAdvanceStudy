@@ -1,30 +1,32 @@
 {
   "buildFiles": [
-    "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/CMakeLists.txt",
-    "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/CMakeLists.txt",
-    "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/Substrate/CMakeLists.txt"
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\CMakeLists.txt",
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\CMakeLists.txt",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/x86 --target clean"
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
   ],
   "libraries": {
     "alloc-lib-Release-x86": {
       "artifactName": "alloc-lib",
-      "buildCommand": "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/x86 --target alloc-lib",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\x86 --target alloc-lib",
       "abi": "x86",
-      "output": "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/build/intermediates/cmake/release/obj/x86/liballoc-lib.so"
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\build\\intermediates\\cmake\\release\\obj\\x86\\liballoc-lib.so"
     },
     "substrate-Release-x86": {
       "artifactName": "substrate",
-      "buildCommand": "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/x86 --target substrate",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\x86 --target substrate",
       "abi": "x86",
-      "output": "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/x86/Substrate/libsubstrate.a"
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\x86\\Substrate\\libsubstrate.a"
     },
     "fbjni-Release-x86": {
       "artifactName": "fbjni",
-      "buildCommand": "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/x86 --target fbjni",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\x86 --target fbjni",
       "abi": "x86",
-      "output": "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/x86/fb/libfbjni.a"
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\x86\\fb\\libfbjni.a"
     }
   }
 }

@@ -1,14 +1,19 @@
-Executable : /Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+Executable : D:\Android\adt\adt-bundle-windows-x86-20131030\sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--H/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp
--B/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a
+-HE:\2020\AndroidDevelopLession\Github\AllocTrackerDemo\alloctrackSample\src\main\cpp
+-BE:\2020\AndroidDevelopLession\Github\AllocTrackerDemo\alloctrackSample\.externalNativeBuild\cmake\debug\armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
 -DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\2020\AndroidDevelopLession\Github\AllocTrackerDemo\alloctrackSample\build\intermediates\cmake\debug\obj\armeabi-v7a
 -DCMAKE_BUILD_TYPE=Debug
--DANDROID_NDK=/Users/hc/Library/Android/sdk/ndk/21.0.6113669
--DCMAKE_TOOLCHAIN_FILE=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
--GAndroid Gradle - Ninja
+-DANDROID_NDK=D:\Android\adt\adt-bundle-windows-x86-20131030\sdk\ndk-bundle
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=D:\Android\adt\adt-bundle-windows-x86-20131030\sdk\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=D:\Android\adt\adt-bundle-windows-x86-20131030\sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=D:\Android\adt\adt-bundle-windows-x86-20131030\sdk\cmake\3.10.2.4988404\bin\ninja.exe
 jvmArgs : 
 

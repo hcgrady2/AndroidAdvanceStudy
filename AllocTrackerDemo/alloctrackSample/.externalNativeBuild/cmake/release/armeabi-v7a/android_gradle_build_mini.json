@@ -1,30 +1,32 @@
 {
   "buildFiles": [
-    "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/CMakeLists.txt",
-    "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/CMakeLists.txt",
-    "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/Substrate/CMakeLists.txt"
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\CMakeLists.txt",
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\CMakeLists.txt",
+    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
   ],
   "libraries": {
     "fbjni-Release-armeabi-v7a": {
       "artifactName": "fbjni",
-      "buildCommand": "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target fbjni",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target fbjni",
       "abi": "armeabi-v7a",
-      "output": "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/fb/libfbjni.a"
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\\fb\\libfbjni.a"
     },
     "substrate-Release-armeabi-v7a": {
       "artifactName": "substrate",
-      "buildCommand": "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target substrate",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target substrate",
       "abi": "armeabi-v7a",
-      "output": "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/Substrate/libsubstrate.a"
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\\Substrate\\libsubstrate.a"
     },
     "alloc-lib-Release-armeabi-v7a": {
       "artifactName": "alloc-lib",
-      "buildCommand": "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target alloc-lib",
+      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target alloc-lib",
       "abi": "armeabi-v7a",
-      "output": "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/build/intermediates/cmake/release/obj/armeabi-v7a/liballoc-lib.so"
+      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\liballoc-lib.so"
     }
   }
 }

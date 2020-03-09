@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: DumpPrinter.DumpPrinter-1.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/DumpPrinter/build/libs/DumpPrinter-1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

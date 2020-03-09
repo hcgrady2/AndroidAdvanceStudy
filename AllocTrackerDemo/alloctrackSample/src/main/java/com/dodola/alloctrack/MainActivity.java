@@ -15,7 +15,9 @@ import android.widget.Button;
 import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
+
     private AllocTracker tracker = new AllocTracker();
+
     private Button dumpLogBtn;
     private static final int WRITE_EXTERNAL_STORAGE_REQUEST_CODE = 100;
     private File externalReportPath;
@@ -40,14 +42,20 @@ public class MainActivity extends AppCompatActivity {
             initExternalReportPath();
         }
         tracker.initForArt(BuildConfig.VERSION_CODE, 500);//从 start 开始触发到5000的数据就 dump 到文件中
+
         dumpLogBtn = findViewById(R.id.dump_log);
         findViewById(R.id.btn_start).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                //正式开始记录的，主要看这个记录
                 tracker.startAllocationTracker();
+
                 dumpLogBtn.setEnabled(true);
             }
         });
+
+
         findViewById(R.id.btn_stop).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
                 }).start();
             }
         });
+
+
         findViewById(R.id.gen_obj).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
