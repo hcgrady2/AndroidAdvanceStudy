@@ -1,8 +1,8 @@
-# Install script for directory: E:/2020/AndroidDevelopLession/Github/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb
+# Install script for directory: /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -30,10 +30,5 @@ endif()
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "0")
-endif()
-
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 

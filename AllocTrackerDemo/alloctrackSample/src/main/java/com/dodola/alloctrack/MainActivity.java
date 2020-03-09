@@ -8,6 +8,7 @@ import android.os.Message;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int WRITE_EXTERNAL_STORAGE_REQUEST_CODE = 100;
     private File externalReportPath;
 
+
+    private static final String TAG = "alloctracker";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,10 +33,13 @@ public class MainActivity extends AppCompatActivity {
                     this,
                     new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
                     WRITE_EXTERNAL_STORAGE_REQUEST_CODE);
+
+            Log.i(TAG, "onCreate: 没有获取到授权");
         } else {
+            Log.i(TAG, "onCreate: 有授权");
             initExternalReportPath();
         }
-        tracker.initForArt(BuildConfig.VERSION_CODE, 5000);//从 start 开始触发到5000的数据就 dump 到文件中
+        tracker.initForArt(BuildConfig.VERSION_CODE, 500);//从 start 开始触发到5000的数据就 dump 到文件中
         dumpLogBtn = findViewById(R.id.dump_log);
         findViewById(R.id.btn_start).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,10 +72,17 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.gen_obj).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                for (int i = 0; i < 1000; i++) {
-                    Message msg = new Message();
+
+
+                Log.i(TAG, "onClick: 开始生成对象");
+                for (int i = 0; i < 600; i++) {
+                   Message msg = new Message();
                     msg.what = i;
+                 //   Button button = new Button(MainActivity.this);
+
                 }
+
+                Log.i(TAG, "onClick: 生成对象完毕");
             }
         });
     }
@@ -83,11 +96,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initExternalReportPath() {
+
+        Log.i(TAG, "initExternalReportPath: 开始初始化目录");
+
         externalReportPath = new File(Environment.getExternalStorageDirectory(), "crashDump");
+
         if (!externalReportPath.exists()) {
             externalReportPath.mkdirs();
         }
+
+        Log.i(TAG, "initExternalReportPath: 开始设置目录");
         tracker.setSaveDataDirectory(externalReportPath.getAbsolutePath());
+
+        Log.i(TAG, "initExternalReportPath: 获取授权之后，设置完毕");
 
     }
 }

@@ -36,3 +36,5 @@ task buildAlloctrackJar(type: Copy, dependsOn: [build, jar]) {
     }
     into(rootProject.file("tools"))
 }
+
+sourceSets.main.java.srcDirs=['src']

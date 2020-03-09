@@ -1,165 +1,182 @@
+
 {
-  "stringTable": {
-    "0": "E:/2020/AndroidDevelopLession/Github/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/fb",
-    "1": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC  ",
-    "2": "E:/2020/AndroidDevelopLession/Github/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/Substrate",
-    "3": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC  ",
-    "4": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -std=c++11  -Oz -DNDEBUG  -fPIC  ",
-    "5": "E:/2020/AndroidDevelopLession/Github/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a",
-    "6": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -Oz -DNDEBUG  -fPIC  "
-  },
-  "buildFiles": [
-    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
-    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\CMakeLists.txt",
-    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
-    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\CMakeLists.txt",
-    "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\CMakeLists.txt"
-  ],
-  "cleanCommands": [
-    "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
-  ],
-  "libraries": {
-    "fbjni-Release-armeabi-v7a": {
-      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target fbjni",
-      "buildType": "release",
-      "toolchain": "4250841698",
-      "abi": "armeabi-v7a",
-      "artifactName": "fbjni",
-      "files": [
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\lyra\\lyra_exceptions.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\lyra\\lyra_breakpad.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\lyra\\cxa_throw.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\lyra\\lyra.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\ByteBuffer.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\fbjni.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\ReadableByteChannel.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\detail\\Environment.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\detail\\Exceptions.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\detail\\Hybrid.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\detail\\References.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\fb\\fbjni\\detail\\utf8.cpp",
-          "flagsOrdinal": 1,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\\fb\\libfbjni.a"
-    },
-    "substrate-Release-armeabi-v7a": {
-      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target substrate",
-      "buildType": "release",
-      "toolchain": "4250841698",
-      "abi": "armeabi-v7a",
-      "artifactName": "substrate",
-      "files": [
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\hde64.c",
-          "flagsOrdinal": 3,
-          "workingDirectoryOrdinal": 2
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\SubstrateDebug.cpp",
-          "flagsOrdinal": 4,
-          "workingDirectoryOrdinal": 2
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\SubstrateHook.cpp",
-          "flagsOrdinal": 4,
-          "workingDirectoryOrdinal": 2
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\Substrate\\SubstratePosixMemory.cpp",
-          "flagsOrdinal": 4,
-          "workingDirectoryOrdinal": 2
-        }
-      ],
-      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\\Substrate\\libsubstrate.a"
-    },
-    "alloc-lib-Release-armeabi-v7a": {
-      "buildCommand": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target alloc-lib",
-      "buildType": "release",
-      "toolchain": "4250841698",
-      "abi": "armeabi-v7a",
-      "artifactName": "alloc-lib",
-      "files": [
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\dlopen.c",
-          "flagsOrdinal": 3,
-          "workingDirectoryOrdinal": 5
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\allocTracker.cpp",
-          "flagsOrdinal": 6,
-          "workingDirectoryOrdinal": 5
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\lock.cpp",
-          "flagsOrdinal": 6,
-          "workingDirectoryOrdinal": 5
-        },
-        {
-          "src": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\src\\main\\cpp\\native-lib.cpp",
-          "flagsOrdinal": 6,
-          "workingDirectoryOrdinal": 5
-        }
-      ],
-      "output": "E:\\2020\\AndroidDevelopLession\\Github\\AllocTrackerDemo\\alloctrackSample\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\liballoc-lib.so"
-    }
-  },
-  "toolchains": {
-    "4250841698": {
-      "cCompilerExecutable": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
-      "cppCompilerExecutable": "D:\\Android\\adt\\adt-bundle-windows-x86-20131030\\sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
-    }
-  },
-  "cFileExtensions": [
-    "c"
-  ],
-  "cppFileExtensions": [
-    "cpp"
-  ]
+	"buildFiles" : 
+	[
+		"/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/CMakeLists.txt",
+		"/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/CMakeLists.txt",
+		"/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/Substrate/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"alloc-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "alloc-lib",
+			"buildCommand" : "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target alloc-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dalloc_lib_EXPORTS -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/dlopen.c",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dalloc_lib_EXPORTS -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/allocTracker.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dalloc_lib_EXPORTS -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/lock.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dalloc_lib_EXPORTS -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/build/intermediates/cmake/release/obj/armeabi-v7a/liballoc-lib.so",
+			"toolchain" : "17925380660290957481"
+		},
+		"fbjni-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "fbjni",
+			"buildCommand" : "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target fbjni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/lyra/lyra_exceptions.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/lyra/lyra_breakpad.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/lyra/cxa_throw.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/lyra/lyra.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/ByteBuffer.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/fbjni.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/ReadableByteChannel.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/detail/Environment.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/detail/Exceptions.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/detail/Hybrid.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/detail/References.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/.  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef  -DART_DEFAULT_GC_TYPE_IS_CMS -DDISABLE_CPUCAP -DDISABLE_XPLAT -fexceptions  -DHAVE_POSIX_CLOCKS -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=gnu++14 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -fpack-struct=4 -g -Os -Wextra -DMUSEUM_NOOP_CHECK_MACROS -DMUSEUM_NOOP_THREAD_MUTATORS -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/fb/fbjni/detail/utf8.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/fb/libfbjni.a",
+			"toolchain" : "17925380660290957481"
+		},
+		"substrate-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "substrate",
+			"buildCommand" : "/Users/hc/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a --target substrate",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/Substrate/hde64.c",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -std=c++11  -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/Substrate/SubstrateDebug.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -std=c++11  -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/Substrate/SubstrateHook.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fexceptions -Wno-unused -Wno-gnu-alignof-expression -Wno-missing-field-initializers -std=c++11 -fvisibility=hidden -fexceptions -Wextra -Wno-unused-parameter -Wno-format-security -Wno-unused-local-typedef -std=c++11  -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/src/main/cpp/Substrate/SubstratePosixMemory.cpp",
+					"workingDirectory" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/hc/project/DevelopAdvance/AndroidAdvanceStudy/AllocTrackerDemo/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/Substrate/libsubstrate.a",
+			"toolchain" : "17925380660290957481"
+		}
+	},
+	"toolchains" : 
+	{
+		"17925380660290957481" : 
+		{
+			"cCompilerExecutable" : "/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/hc/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
 }
