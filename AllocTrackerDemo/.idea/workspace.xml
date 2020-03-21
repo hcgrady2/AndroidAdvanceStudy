@@ -12,125 +12,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7bdebd9-9970-4945-b49b-8b8af13efe85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__DumpPrinter_DumpPrinter_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DumpPrinter/DumpPrinter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DumpPrinter/DumpPrinter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/Substrate/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/Substrate/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/fb/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/fb/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/armeabi-v7a/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/Substrate/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/Substrate/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/cmake_build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/fb/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/fb/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/debug/x86/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/Substrate/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/Substrate/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/fb/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/fb/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/armeabi-v7a/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/Substrate/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/Substrate/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/android_gradle_build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/android_gradle_build_mini.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/cmake_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/cmake_build_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/fb/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/fb/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/.externalNativeBuild/cmake/release/x86/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/lint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/lint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/baidumapsdk/demo/indoorview/BaseStripAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/baidumapsdk/demo/indoorview/BaseStripAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/baidumapsdk/demo/indoorview/StripItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/baidumapsdk/demo/indoorview/StripItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/baidumapsdk/demo/indoorview/StripListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/baidumapsdk/demo/indoorview/StripListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/ForegroundActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/ForegroundActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/IndoorLocationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/IndoorLocationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/IsHotWifiActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/IsHotWifiActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationAutoNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationAutoNotify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/LocationOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/NotificationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/NotificationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/NotifyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/NotifyActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/QuestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/demo/QuestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/service/LocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/service/LocationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/service/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/java/com/baidu/location/service/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-hdpi/icon_openmap_focuse_mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-hdpi/icon_openmap_focuse_mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-hdpi/icon_openmap_mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-hdpi/icon_openmap_mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-mdpi/icon_gcoding.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-mdpi/icon_gcoding.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-xhdpi/icon_markb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-xhdpi/icon_markb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/activity_location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/activity_location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/autonotifyconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/autonotifyconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/demo_info_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/demo_info_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/function_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/function_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/hotwifi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/hotwifi.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/locationalarm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/locationalarm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/locationconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/locationconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/locationfilter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/locationfilter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/notify.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/notify.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/quest_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/layout/quest_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/menu/main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/menu/main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-sw600dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-sw600dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-sw720dp-land/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-sw720dp-land/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-v11/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-v11/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-v14/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values-v14/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/import-summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/import-summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/images/BaiduLoc_AndroidSDK_v8.2.0_Demo/LocationDemo/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,18 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-              <folding>
-                <element signature="e#1611#1822#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
-                <element signature="e#2135#2474#0" expanded="true" />
-                <element signature="e#2255#2440#0" expanded="true" />
-                <element signature="e#2439#2440#0" expanded="true" />
-                <element signature="e#2473#2474#0" expanded="true" />
-                <element signature="e#2531#2962#0" expanded="true" />
-                <element signature="e#2961#2962#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="663">
+              <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -215,35 +149,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/AllocTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/allocTracker.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="184" column="37" selection-start-line="184" selection-start-column="15" selection-end-line="184" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/logger.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/alloctracker.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="218">
+                <caret line="998" column="42" lean-forward="true" selection-start-line="998" selection-start-column="42" selection-end-line="998" selection-end-column="42" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -253,8 +174,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>annotations</find>
-      <find>setSaveDataDirectory</find>
       <find>initForArt</find>
+      <find>setSaveDataDirectory</find>
       <find>startAllocationTracker</find>
     </findStrings>
   </component>
@@ -265,17 +186,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DumpPrinter/build.gradle" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/MainActivity.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="174" />
-    <option name="y" value="-29" />
-    <option name="width" value="1366" />
-    <option name="height" value="560" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -284,7 +205,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -297,6 +217,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,7 +390,7 @@
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15204236" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2624811" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -481,11 +402,11 @@
       <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.50753766" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Flutter Performance" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Build" order="9" weight="0.3316583" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.3305369" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.4328767" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.42487884" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -525,12 +446,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DumpPrinter/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -549,25 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="521">
-            <caret line="926" column="3" lean-forward="true" selection-start-line="926" selection-start-column="3" selection-end-line="926" selection-end-column="3" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/alloctracker.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/logger.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -575,34 +477,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-          <folding>
-            <element signature="e#1611#1822#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#2135#2474#0" expanded="true" />
-            <element signature="e#2255#2440#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#2531#2962#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/dlopen.h">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/AllocTracker.java">
+    <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/alloctracker.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="182">
+          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/cpp/allocTracker.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="184" column="37" selection-start-line="184" selection-start-column="15" selection-end-line="184" selection-end-column="37" />
+          <caret line="252" column="12" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alloctrackSample/src/main/java/com/dodola/alloctrack/AllocTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="218">
+            <caret line="998" column="42" lean-forward="true" selection-start-line="998" selection-start-column="42" selection-end-line="998" selection-end-column="42" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

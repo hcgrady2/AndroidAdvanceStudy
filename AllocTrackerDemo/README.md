@@ -983,3 +983,29 @@ tid=7205 java.lang.Class (4144 bytes)//当前线程  类名  分配的大小
 2. 选择合适的框架。需要对各种Hook框架有清楚的认识，如何选择，如何使用。
 
 这套方案的确有点复杂，Android Profiler 换了新的实现方案。整体实现会简单很多，后续也会给出实现。
+
+
+
+
+
+
+
+
+
+
+#### 其他
+```
+  void *hookRecordAllocation26 = ndk_dlsym(handle,
+                                             "_ZN3art2gc20AllocRecordObjectMap16RecordAllocationEPNS_6ThreadEPNS_6ObjPtrINS_6mirror6ObjectEEEj");
+
+```
+
+这行代码，涉及到了符号还原的知识，
+1、大型应用程序都是通过多模块构建来完成的，模块之间通过 makefile 来描述。
+2、构建过程为： 各个源文件分别编译，形成目标文件，多个目标文件通过链接器形成最终可执行文件，也就是，编译器的输出是连接器的
+输入，因此需要一定的规则来组织名字问题。
+
+3、Name Mangling就是一种规范编译器和链接器之间用于通信的符号表表示方法的协议，其目的在于按照程序的语言规范，使符号具备足够多的语义信息以保证链接过程准确无误的进行。
+
+4、可以在 GCC and MSVC C++ Demangler 这个网站上进行符号还原。
+
