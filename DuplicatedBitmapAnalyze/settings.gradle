@@ -1,2 +1,2 @@
-include ':app' ,':DuplicatedBitmapAnalyzer'
+include ':app', ':getfilemd5' ,':DuplicatedBitmapAnalyzer'
 rootProject.name='DuplicatedBitmapAnalyze'
