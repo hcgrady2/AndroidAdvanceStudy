@@ -88,6 +88,9 @@ ArrayInstance buffer = HahaHelper.fieldValue(((ClassInstance) bitmapInstance).ge
 
 整个思路就是通过 mBuffer 的 哈希值来判断那些图片是重复的。
 
+目前只能在 8.0 一下测试，8.0 以上会分配到 native 上。
+
+
 
 
 
