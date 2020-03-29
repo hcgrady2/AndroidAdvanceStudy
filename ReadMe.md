@@ -11,3 +11,5 @@
 [5、卡顿优化一：模仿 ProcessCpuTracker 获取线程耗时占比](./GetThreadsInfo/README.md)
 
 [6、卡顿优化二：使用 PLTHook技术获取 Atrace 的日志](./AtraceLog/README.md)
+
+[6p、卡顿优化补充：PLTHook 技术来获取线程创建的堆栈](./ThreadHook/README.md)
