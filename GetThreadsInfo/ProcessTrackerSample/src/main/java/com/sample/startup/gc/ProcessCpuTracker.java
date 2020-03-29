@@ -39,6 +39,8 @@ public class ProcessCpuTracker {
     private static final String SE_IOWAIT_COUNT = "se.statistics.iowait_count";
     private static final String SE_IOWAIT_SUM = "se.statistics.iowait_sum";
 
+
+    //proc/stat 文件获取的信息格式
     // /proc/stat
     private static final int SYSTEM_STATS_USER_TIME = 2;
     private static final int SYSTEM_STATS_NICE_TIME = 3;
@@ -141,35 +143,55 @@ public class ProcessCpuTracker {
     }
 
 
+    //当前进程
     public ProcessCpuTracker(int id) {
+        Log.i(TAG, "ProcessCpuTracker: 当前进程 id: " + id);
+        //获取时间片
         long jiffyHz = Sysconf.getScClkTck();
         mJiffyMillis = 1000 / jiffyHz;
+
         mCurrentProcID = id;
         mCurrentProcStat = new Stats(mCurrentProcID, false);
 
     }
 
+    //update方法主要是读取/proc/stat与/proc/loadavg文件的数据来更新当前的CPU时间
     public void update() {
         if (DEBUG) {
             android.util.Log.v(TAG, "Update: " + this);
         }
+
+        //获取当前时间
         final long nowUptime = SystemClock.uptimeMillis();
         final long nowRealtime = SystemClock.elapsedRealtime();
         final long nowWallTime = System.currentTimeMillis();
+
+
+
+        //读取 /proc/stat 信息保存到数组中
         final String[] sysCpu = readProcFile("/proc/stat");
+        Log.i("CPUTAG", "update: 获取的返回结果 : " + sysCpu);
+
 
         //for (int i = 0; i < sysCpu.length; i++) {
         //    android.util.Log.e(TAG,"i:" + i + ", sys:" + sysCpu[i]);
         //}
 
+
+        //根据读取的数据，计算时间
         if (sysCpu != null) {
+
             // Total user time is user + nice time.
             final long usertime = (Long.parseLong(sysCpu[SYSTEM_STATS_USER_TIME])
                     + Long.parseLong(sysCpu[SYSTEM_STATS_NICE_TIME])) * mJiffyMillis;
+
+
             // Total system time is simply system time.
             final long systemtime = Long.parseLong(sysCpu[SYSTEM_STATS_SYS_TIME]) * mJiffyMillis;
+
             // Total idle time is simply idle time.
             final long idletime = Long.parseLong(sysCpu[SYSTEM_STATS_IDLE_TIME]) * mJiffyMillis;
+
             // Total irq time is iowait + irq + softirq time.
             final long iowaittime = Long.parseLong(sysCpu[SYSTEM_STATS_IOWAIT_TIME]) * mJiffyMillis;
             final long irqtime = Long.parseLong(sysCpu[SYSTEM_STATS_IRQ_TIME]) * mJiffyMillis;
@@ -192,6 +214,8 @@ public class ProcessCpuTracker {
                 android.util.Log.i(TAG, "Rel U:" + mRelUserTime + " S:" + mRelSystemTime
                         + " I:" + mRelIdleTime + " Q:" + mRelIrqTime);
             }
+
+            //第一次计算之后，会将当前信息保存一下，第二次计算用这个计算差值。
             mBaseUserTime = usertime;
             mBaseSystemTime = systemtime;
             mBaseIoWaitTime = iowaittime;
@@ -200,6 +224,8 @@ public class ProcessCpuTracker {
             mBaseIdleTime = idletime;
 
         }
+
+
         mLastSampleTime = mCurrentSampleTime;
         mCurrentSampleTime = nowUptime;
         mLastSampleRealTime = mCurrentSampleRealTime;
@@ -208,7 +234,10 @@ public class ProcessCpuTracker {
         mCurrentSampleWallTime = nowWallTime;
 
         getName(mCurrentProcStat, mCurrentProcStat.cmdlineFile);
+
+
         collectProcsStats("/proc/self/stat", mCurrentProcStat);
+
         if (mCurrentProcStat.workingThreads != null) {
             File[] threadsProcFiles = new File(mCurrentProcStat.threadsDir).listFiles();
             for (File thread : threadsProcFiles) {
@@ -227,6 +256,9 @@ public class ProcessCpuTracker {
         }
 
 
+        //通过 读取 /proc/loadavg 获取系统负载
+        //格式 Load Average: 8.74 / 7.74 / 7.36
+        //Load average从左边起依次是过去1分钟、5分钟、15分钟内，单位时间的等待任务数，也就是表示平均有多少任务正处于等待状态。
         final String[] loadAverages = readProcFile("/proc/loadavg");
 
         if (loadAverages != null) {
@@ -239,11 +271,16 @@ public class ProcessCpuTracker {
                 mLoad15 = load15;
             }
         }
+
+        //打印统计信息所消耗的时间
         if (DEBUG) {
             android.util.Log.i(TAG, "*** TIME TO COLLECT STATS: "
                     + (SystemClock.uptimeMillis() - mCurrentSampleTime));
         }
+
+
     }
+
 
     @Nullable
     private Stats findThreadStat(int id, ArrayList<Stats> stats) {
@@ -371,6 +408,7 @@ public class ProcessCpuTracker {
         return sw.toString();
     }
 
+    //输出统计信息
     @SuppressLint("SimpleDateFormat")
     final public String printCurrentState(long now) {
         final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
@@ -407,9 +445,11 @@ public class ProcessCpuTracker {
                 + mRelIrqTime + mRelSoftIrqTime + mRelIdleTime;
 
         Stats st = mCurrentProcStat;
+
         printProcessCPU(pw,
                 st.pid, st.name, st.status, (int) st.rel_uptime,
                 st.rel_utime, st.rel_stime, 0, 0, 0, 0, st.rel_minfaults, st.rel_majfaults);
+
         if (st.workingThreads != null) {
             pw.println("thread stats:");
             int M = st.workingThreads.size();
@@ -550,6 +590,9 @@ public class ProcessCpuTracker {
         }
     }
 
+    //通过读取 /proc/stat 获取系统 cpu 的活动信息
+    //格式 : cpu  223447 240 4504182 410802165 59753 412 586209 0 0
+    // 含义       user   nice system idle iowait irq,softirq,stealstolen,guest
     @Nullable
     protected String[] readProcFile(String file) {
         RandomAccessFile procFile = null;
@@ -557,6 +600,7 @@ public class ProcessCpuTracker {
         try {
             procFile = new RandomAccessFile(file, "r");
             procFileContents = procFile.readLine();
+            Log.i("CPUTAG", "readProcFile: 获取的 procFileContents :" +procFileContents );
             int rightIndex = procFileContents.indexOf(")");
             if (rightIndex > 0) {
                 procFileContents = procFileContents.substring(rightIndex + 2);
