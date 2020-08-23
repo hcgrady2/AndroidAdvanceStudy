@@ -1,7 +1,7 @@
 # 启动优化（上）
 ### 一、App 启动过程分析
 ##### 1、从用户点击图标到应用启动的过程
-![](./images/one.jpen)
+![](./images/one.jpeg)
 
 ##### 2、启动过程分析
 ![](./images/two.png)
@@ -163,7 +163,7 @@ python systrace.py --time=10 -o mynewtrace.html sched gfx view wm
 ![image.png](./images/four.png)
 ##### 3、systrace 的使用
 查看 systrace 是，需要用到的快捷键。
-![image.png](./images/fix.png)
+![image.png](./images/five.png)
 
 
 
