@@ -14,4 +14,4 @@
 
 [6p、卡顿优化补充：PLTHook 技术来获取线程创建的堆栈](./ThreadHook/README.md)
 
-[7、启动速度优化：systrace 性能分析&通过 ASM 添加 trace log ](./SystraceDemo/README.md)
+[7、启动速度优化：systrace 性能分析&通过 ASM 添加 trace log ](./Systrace/README.md)
