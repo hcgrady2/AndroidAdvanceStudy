@@ -1,10 +1,10 @@
 # 启动优化（上）
 ### 一、App 启动过程分析
 ##### 1、从用户点击图标到应用启动的过程
-![](https://cdn.nlark.com/yuque/0/2020/jpeg/601782/1586143190542-a2ce983a-a3a1-455e-8472-4c933434f679.jpeg?x-oss-process=image/resize,w_746#align=left&display=inline&height=560&margin=%5Bobject%20Object%5D&originHeight=560&originWidth=746&status=done&style=none&width=746)
+![](./images/one.jpen)
 
 ##### 2、启动过程分析
-![](https://cdn.nlark.com/yuque/0/2020/png/601782/1586082513250-7fa0bcfd-1b80-4750-9491-16389ed139f7.png#align=left&display=inline&height=560&margin=%5Bobject%20Object%5D&originHeight=560&originWidth=1368&size=0&status=done&style=none&width=1368)
+![](./images/two.png)
 App 的启动可以分成三类： 冷启动、暖启动和热启动。
 冷启动：后台没有进程或者服务，需要新建进程，用户通过点击 icon 来启动，耗时最长。
 
@@ -150,20 +150,20 @@ python systrace.py --time=10 -o mynewtrace.html sched gfx view wm
 
 其中，-time 为间隔时间，-o 为文件名。
 更详细的参数信息如下：
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/601782/1586172609107-0ecf11cf-73b4-46df-8fd6-52173003deb0.png#align=left&display=inline&height=406&margin=%5Bobject%20Object%5D&name=image.png&originHeight=406&originWidth=969&size=41374&status=done&style=none&width=969)
+![image.png](./images/threep.png)
 
 
 可选标签：
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/601782/1586172656573-dd3d3c30-fecc-422c-bc06-44ed7cd0c343.png#align=left&display=inline&height=874&margin=%5Bobject%20Object%5D&name=image.png&originHeight=874&originWidth=978&size=49082&status=done&style=none&width=978)
+![image.png](./images/three.png)
 
 
 执行上述命令，会生成 html 文件。
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/601782/1586172737729-c60b20ad-d669-4cb8-936b-3cbf8334062e.png#align=left&display=inline&height=336&margin=%5Bobject%20Object%5D&name=image.png&originHeight=336&originWidth=964&size=121054&status=done&style=none&width=964)
+![image.png](./images/four.png)
 ##### 3、systrace 的使用
 查看 systrace 是，需要用到的快捷键。
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/601782/1586172787991-fdfd5340-35ec-48d9-b1ad-a90a8998fc92.png#align=left&display=inline&height=246&margin=%5Bobject%20Object%5D&name=image.png&originHeight=246&originWidth=972&size=12163&status=done&style=none&width=972)
+![image.png](./images/fix.png)
 
 
 
@@ -220,7 +220,7 @@ Google 提供了  Transfrom API ,通过这个 API 我们可以在打包成 dex 
 
 
 目录结构如下：
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/601782/1586597715795-9fa03932-f664-4aad-a98a-6dcb931e44f6.png#align=left&display=inline&height=340&margin=%5Bobject%20Object%5D&name=image.png&originHeight=340&originWidth=327&size=17019&status=done&style=none&width=327)
+![image.png](./images/six.png)
 
 
 
